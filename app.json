@@ -27,10 +27,17 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/BebasNeue.ttf"]
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "backgroundColor": "#000000"
   }
 }
